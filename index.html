@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ocean</title>
+    <link rel="shortcut icon" href="./fav.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- liked js file  -->
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- All Audioes -->
+    <audio id="cloudPlay">
+      <source src="./cloud-01.mp3" type="audio/ogg" />
+    </audio>
+    <audio id="windPlay">
+      <source src="./forest-wind-and-birds.mp3" type="audio/ogg" />
+    </audio>
+    <audio id="everestPlay">
+      <source src="./everest.mp3" type="audio/ogg" />
+    </audio>
+    <audio id="oceanPlay">
+      <source src="./ocean.mp3" type="audio/ogg" />
+    </audio>
+    <audio id="bricksPlay">
+      <source src="./Falling_Brick.mp3" type="audio/ogg" />
+    </audio>
+    <audio id="waterfallPlay">
+      <source src="./Waterfalls.mp3" type="audio/ogg" />
+    </audio>
+    <audio id="beachPly">
+      <source src="./Beach_With_People.mp3" type="audio/ogg" />
+    </audio>
+
+    <!-- Main Image  -->
+    <img src="./ocean03.jpg" alt="Workplace" usemap="#workmap" />
+
+    <map name="workmap">
+      <!--sky, cloud sound  -->
+      <area
+        onclick="cloudPlay()"
+        coords="2,3,-1,147,59,144,89,147,132,130,154,132,186,132,205,138,230,127,257,127,307,117,326,116,370,116,400,120,433,126,469,130,515,127,569,129,585,137,599,142,632,144,679,141,727,146,773,147,858,137,929,135,999,134,1055,127,1054,0"
+        shape="poly"
+      />
+      <!-- everest sound -->
+      <area
+        onclick="everestPlay()"
+        coords="-1,144,38,152,78,151,94,147,121,138,154,143,186,147,207,149,236,135,261,139,287,144,318,132,335,134,341,141,353,139,362,139,374,144,384,144,398,133,423,131,457,131,489,131,533,134,585,146,641,155,660,152,675,158,687,161,553,173,245,171,62,166,0,172"
+        shape="poly"
+      />
+
+      <!-- wind sound -->
+      <area
+        onclick="windPlay()"
+        coords="0,149,47,152,78,152,117,148,148,146,180,151,215,144,236,139,283,146,327,137,359,143,381,151,410,134,469,134,510,137,546,143,592,152,638,157,675,157,692,172,732,168,757,166,788,164,853,150,941,141,1006,139,1036,136,1054,135,1054,159,981,155,951,155,850,169,775,179,737,223,665,223,582,240,371,221,292,223,217,222,276,228,253,226,414,217,313,224,-1,225,1,195,-1,181"
+        shape="poly"
+      />
+      <!-- ocean sound -->
+      <area
+        onclick="oceanPlay()"
+        coords="0,566,43,568,95,570,132,585,190,590,229,571,266,575,304,579,373,579,459,572,516,571,581,567,632,579,719,608,740,627,765,650,792,666,774,615,778,598,816,606,854,624,848,586,875,572,903,570,943,576,983,585,1043,589,1046,597,1054,787,309,790,3,790"
+        shape="poly"
+      />
+      <!-- Bricks sound -->
+      <area
+        onclick="bricksPlay()"
+        coords="-1,559,50,567,95,571,146,577,197,574,238,568,284,564,328,571,413,551,446,555,498,557,542,557,586,552,609,555,569,530,553,416,560,361,554,308,549,278,233,259,87,257,1,253"
+        shape="poly"
+      />
+      <area
+        onclick="bricksPlay()"
+        coords="625,291,630,378,649,476,662,526,666,566,697,583,741,595,779,594,812,590,814,569,915,566,977,578,1022,579,1055,572,1051,224,1046,241"
+        shape="poly"
+      />
+      <!-- waterfall sound -->
+      <area
+        onclick="waterfallPlay()"
+        coords="558,287,555,355,564,440,571,508,569,534,648,550,627,284"
+        shape="poly"
+      />
+      <!-- Men on beach -->
+      <area
+        onclick="beachPly()"
+        coords="208,248,268,266,318,262,359,263,396,263,429,272,515,273,555,272,588,258,633,245,700,245,728,240,767,219,795,202,826,193,847,177,811,172,587,220,503,213,440,213,464,202,491,203,509,195,520,193,503,184,230,219"
+        shape="poly"
+      />
+    </map>
+  </body>
+</html>
