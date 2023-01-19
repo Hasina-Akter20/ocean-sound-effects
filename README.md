@@ -9,4 +9,4 @@ It's an object based sound effecting website. By clicking on the objects in the 
 -  The breaking bricks/rocks
 
 ---
-###### Have functional/looping error. 
+###### Have some functional/looping error. 
