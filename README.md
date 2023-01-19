@@ -9,3 +9,6 @@ Like,
 5. The ocean
 6. The waterfall
 7.  The breaking bricks/rocks
+
+---
+### Have functional/looping error. 
